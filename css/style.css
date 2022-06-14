@@ -367,19 +367,26 @@ h1 {
   padding: 15px;
 }
 
-.shape-oval {
+.shape-rounded {
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
 }
 
 .shape-circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
 }
 
-.rounded {
+.shape-elliptical-1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px 100px / 5px 100px ;
 }
-
 /* ID selector */
 
-#wii {
-}
+
 
 /* PseudoClass selector */
 a:link {
@@ -393,35 +400,9 @@ a:link {
   color: rgb(63, 38, 87);
 }
 
-/* Selecciona los p que son hijos directos del article */
-
-article > p {
-}
-
-/* Selecciona los descendientes */
-
-ul li {
-}
-
-/* Selecciona el hermano que esta justo al lado */
-
-/* Selecciona todos los hermanos despues */
-
-/* Selecciona por atributo*/
-
-img[src] {
-}
-
-/* Valor del atributo tiene que ser exacto */
-
-a[href="#color"] {
-}
-
-/* Si el atributo contiene mas valores, al menos un valor coincida*/
-
 /*  Si el valor  del atributo empieza exactamente con la subcadena */
 
 div[class^="bgi-flower"] {
-  color: white;
-  text-align: center;
+    color: white;
+    text-align: center;
 }
