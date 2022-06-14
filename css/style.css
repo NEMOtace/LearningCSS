@@ -1,0 +1,412 @@
+/* Tag selector */
+h1 {
+  color: rgb(105, 97, 124);
+}
+
+/* Class selector */
+.box {
+  width: 50px;
+  height: 50px;
+}
+
+/* Color Text */
+.color-rose {
+  color: palevioletred;
+}
+
+/* Text Transform */
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* Text Decoration */
+
+.underline {
+  text-decoration: underline;
+}
+
+.overline {
+  text-decoration: overline;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.underline-wavy {
+  text-decoration: underline wavy;
+}
+
+.underline-dashed {
+  text-decoration: underline dashed;
+}
+
+.overline-dotted {
+  text-decoration: overline dotted;
+}
+
+.linet-wavy-pink {
+  text-decoration: line-through wavy palevioletred;
+}
+
+/* Font Face */
+
+/* Font Family */
+
+.arial {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.courier-new {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.times-new-roman {
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Font Size */
+.fonts-1 {
+  font-size: 1rem;
+}
+
+.fonts-1-5 {
+  font-size: 1.5rem;
+}
+
+/* Font Style */
+
+.italic {
+  font-style: italic;
+}
+
+.oblique {
+  font-style: oblique;
+}
+
+/* Font weight */
+
+.bold {
+  font-weight: bold;
+}
+
+.lighter {
+  font-weight: lighter;
+}
+
+.bolder {
+    font-weight: bolder;
+}
+
+.fontw-150 {
+    font-weight: 150;
+}
+
+/* Text Shadow */
+
+.text-shadow-pink {
+    text-shadow: 1px 1px 1px pink;
+}
+
+.text-shadow-purple {
+    text-shadow: 1px 1px 1px rgb(132, 98, 148);
+}
+
+.text-shadow-purple-pink {
+    text-shadow: 1px 1px 1px rgb(132, 98, 148), 2px 2px 2px pink;
+}
+
+/* Text Align */
+
+.talign-left{
+    text-align: left;
+}
+.talign-right{
+    text-align: right;
+}
+.talign-center{
+    text-align: center;
+}
+.talign-justify{
+    text-align: justify;
+}
+
+/* Line Height */
+
+.line-height-1-2{
+    line-height: 1.2;
+}
+
+.line-height-1-5{
+    line-height: 1.5;
+}
+
+.line-height-1-7{
+    line-height: 1.7;
+}
+/* Letter & Word Spacing */
+
+.lw-spacing-4{
+    letter-spacing: 4px;
+    word-spacing: 4px;
+}
+
+.lw-spacing-7{
+    letter-spacing: 7px;
+    word-spacing: 7px;
+}
+
+/* Text Indent */
+
+.text-indent-5{
+    text-indent: 5em;
+}
+
+/* Text Overflow */
+
+.textOverflow-clip{
+    text-overflow: clip;
+}
+
+.textOverflow-ellipsis{
+    text-overflow: ellipsis;
+   /*  overflow: hidden;
+white-space: nowrap; */
+}
+
+
+/* Background Color */
+.bgc-wine {
+    background-color: rgb(150, 0, 0);
+}
+
+/* Bacground Color Gradient */
+.bggc-sky-pink {
+    background: linear-gradient(to bottom right, #33ccff 0%, #ff99cc 100%);
+}
+
+/* Border Color */
+.border-pink {
+    border-color: rgb(247, 166, 206);
+}
+
+.border-black {
+    border-color: rgb(5, 5, 5);
+}
+
+.border-sky {
+    border-color: rgb(86, 176, 250);
+}
+
+/* Border Style & Width */
+.border-solid {
+  border-style: solid;
+}
+
+.border-dotted {
+  border-style: dotted;
+}
+
+.border-dashed {
+  border-style: dashed;
+}
+
+.border-double {
+  border-style: double;
+}
+
+.border-groove9 {
+  border-style: groove;
+  border-width: 9px;
+}
+
+.border-ridge9 {
+  border-style: ridge;
+  border-width: 9px;
+}
+
+.border-outset9 {
+  border-style: outset;
+  border-width: 9px;
+}
+
+.border-inset9 {
+  border-style: inset;
+  border-width: 9px;
+}
+
+/* Background Image */
+.bgi-flower1 {
+  width: 200px;
+  height: 200px;
+  background-image: url("/assets/img/flower01.webp");
+}
+
+.bgi-flower4 {
+  width: 200px;
+  height: 200px;
+  background-image: url("/assets/img/flower04.jpg");
+}
+
+.bgi-flower2 {
+  width: 180px;
+  height: 200px;
+  background-image: url("/assets/img/flower02.jpg");
+}
+
+.bgi-flower6 {
+  width: 400px;
+  height: 300px;
+  background-image: url("/assets/img/flower06.webp");
+}
+
+.bgi-flower7 {
+  width: 150px;
+  height: 150px;
+  background-image: url("/assets/img/flower07.webp");
+}
+
+.bgi-flower8 {
+  width: 500px;
+  height: 350px;
+  background-image: url("/assets/img/flower08.webp");
+}
+
+/* Background Repeat */
+
+.bgr-repeaty {
+  background-repeat: repeat-y;
+}
+
+.bgr-repeatx {
+  background-repeat: repeat-x;
+}
+
+.bgr-norepeat {
+  background-repeat: no-repeat;
+}
+
+.bgr-round {
+  background-repeat: round;
+}
+
+.bgr-space {
+  background-repeat: space;
+}
+
+/* Background Position */
+
+.bgp-center {
+  background-position: center;
+}
+
+.bgp-right {
+  background-position: center right;
+}
+
+.bgp-left {
+  background-position: center left;
+}
+
+.bgp-top {
+  background-position: center top;
+}
+
+.bgp-bottom {
+  background-position: center bottom;
+}
+
+.bgp-50-50 {
+  background-position: 50% 50%;
+}
+
+/* Background Size */
+
+.bgs-cover {
+  background-size: cover;
+}
+
+.bgs-contain {
+  background-size: contain;
+}
+
+.bgs-40-40 {
+  background-size: 40% 40%;
+}
+
+/* Margin & Padding */
+
+.margin-left100 {
+  margin-left: 100px;
+}
+.padding-15 {
+  padding: 15px;
+}
+
+.shape-oval {
+}
+
+.shape-circle {
+}
+
+.rounded {
+}
+
+/* ID selector */
+
+#wii {
+}
+
+/* PseudoClass selector */
+a:link {
+  color: rgb(206, 73, 95);
+}
+
+.button:hover {
+}
+
+#visited:visited {
+  color: rgb(63, 38, 87);
+}
+
+/* Selecciona los p que son hijos directos del article */
+
+article > p {
+}
+
+/* Selecciona los descendientes */
+
+ul li {
+}
+
+/* Selecciona el hermano que esta justo al lado */
+
+/* Selecciona todos los hermanos despues */
+
+/* Selecciona por atributo*/
+
+img[src] {
+}
+
+/* Valor del atributo tiene que ser exacto */
+
+a[href="#color"] {
+}
+
+/* Si el atributo contiene mas valores, al menos un valor coincida*/
+
+/*  Si el valor  del atributo empieza exactamente con la subcadena */
+
+div[class^="bgi-flower"] {
+  color: white;
+  text-align: center;
+}
