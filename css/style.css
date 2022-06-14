@@ -9,6 +9,11 @@ h1 {
   height: 50px;
 }
 
+.rectangle {
+    width: 170px;
+    height: 100px;
+  }
+
 /* Color Text */
 .color-rose {
   color: palevioletred;
@@ -95,20 +100,12 @@ h1 {
 
 /* Font weight */
 
-.bold {
+.fontw-bold {
   font-weight: bold;
 }
 
-.lighter {
+.fontw-lighter {
   font-weight: lighter;
-}
-
-.bolder {
-    font-weight: bolder;
-}
-
-.fontw-150 {
-    font-weight: 150;
 }
 
 /* Text Shadow */
@@ -123,6 +120,10 @@ h1 {
 
 .text-shadow-purple-pink {
     text-shadow: 1px 1px 1px rgb(132, 98, 148), 2px 2px 2px pink;
+}
+
+.text-shadow-pink-wine {
+    text-shadow: 1px 1px 1px pink, 2px 2px 2px rgb(128, 61, 72);
 }
 
 /* Text Align */
@@ -171,22 +172,36 @@ h1 {
     text-indent: 5em;
 }
 
+.text-indent-2{
+    text-indent: 2em;
+}
+
 /* Text Overflow */
 
 .textOverflow-clip{
     text-overflow: clip;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .textOverflow-ellipsis{
     text-overflow: ellipsis;
-   /*  overflow: hidden;
-white-space: nowrap; */
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 
 /* Background Color */
 .bgc-wine {
     background-color: rgb(150, 0, 0);
+}
+
+.bgc-sky {
+    background-color: rgb(145, 211, 223);
+}
+
+.bgc-pink {
+    background-color: rgb(219, 204, 219);
 }
 
 /* Bacground Color Gradient */
