@@ -7,6 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Nemo">
         <meta name="description" content="Display">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="stylesheet" type="text/css" href="css/diplay.css">
         <title>Display</title>
     </head>
@@ -25,8 +26,84 @@
                 </ul>
             </nav>
         </header>
+        <hr>
         <main>
-
+            <section>
+                <h2>Display None</h2>
+                <p>
+                    Its like hide the element
+                </p>
+                <div>
+                    <h3>Initial Display</h3>
+                    <div class="bgi-flower6 bgs-cover"></div>
+                    <h3>Display none</h3>
+                    <div class="bgi-flower6 dis-none"></div>
+                    <p style="font-size: 1.2rem; color:rgb(32, 61, 146)">UPS! Where the image go? O.O</p>
+                </div>
+            </section>
+            <hr>
+            <section>
+                <h2>Display inline (with block elements)</h2>
+                <p>
+                    Inline Elements can be next to another inline element cause them use the height and width what they
+                    need, but can change their width or height.
+                </p>
+                <div>
+                    <h3>Block elements</h3>
+                    <ul>
+                        <li class="dis-block">Cat</li>
+                        <li class="dis-block">Dog</li>
+                        <li class="dis-block">Bird</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Change to Inline Elements</h3>
+                    <ul>
+                        <li class="dis-inline">Cat</li>
+                        <li class="dis-inline">Dog</li>
+                        <li class="dis-inline">Bird</li>
+                    </ul>
+                </div>
+            </section>
+            <hr>
+            <section>
+                <h2>Display Block (with inline elements)</h2>
+                <p>
+                    Block elements can´t be next to another cause all of them have its own space.
+                </p>
+                <div>
+                    <h3>Inline Elements</h3>
+                    <a href="#" class="dis-inline">Cat</a>
+                    <a href="#" class="dis-inline">Dog</a>
+                    <a href="#" class="dis-inline">Bird</a>
+                </div>
+                <div>
+                    <h3>Change to Block Elements</h3>
+                    <a href="#" class="dis-block">Cat</a>
+                    <a href="#" class="dis-block">Dog</a>
+                    <a href="#" class="dis-block">Bird</a>
+                </div>
+            </section>
+            <hr>
+            <section>
+                <h2> Display Inline Block </h2>
+                <p>
+                    Inline elements can't have width and height, but with <mark>display inline-block</mark> inline
+                    elements can modified their width and height
+                </p>
+                <div>
+                    <h3>Inline Elements</h3>
+                    <a href="#" class="dis-inline">Cat</a>
+                    <a href="#" class="dis-inline">Dog</a>
+                    <a href="#" class="dis-inline">Bird</a>
+                </div>
+                <div>
+                    <h3>Change to Inline-Block Elements</h3>
+                    <a href="#" class="dis-inline-block">Cat</a>
+                    <a href="#" class="dis-inline-block">Dog</a>
+                    <a href="#" class="dis-inline-block">Bird</a>
+                </div>
+            </section>
         </main>
         <footer>
             <p>Copyright &copy; Learning CSS.</p>
