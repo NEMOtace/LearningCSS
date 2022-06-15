@@ -25,9 +25,138 @@
                 </ul>
             </nav>
         </header>
+        <hr>
         <main>
+            <section>
+                <h2>Position</h2>
+                <p>The default value of the element is STATIC, even if the element has that position we can say that the
+                    element HAS NO position.<br>An element the have position can move (top - bottom - right - left -
+                    z-index)</p>
+                <p>If we use Top we CANT use Bottom</p>
+                <p>If we use Right we CANT use Left</p>
+                <aside>
+                    <details>
+                        <summary><strong><big>Content</big></strong></summary>
+                        <ul>
+                            <li class="display-block"><a href="#static">Static</a></li>
+                            <li class="display-block"><a href="#relative">Relative</a></li>
+                            <li class="display-block"><a href="#absolute">Absolute</a></li>
+                            <li class="display-block"><a href="#fixed">Fixed</a></li>
+                            <li class="display-block"><a href="#sticky">Sticky</a></li>
+                        </ul>
+                    </details>
+                </aside>
+            </section>
+            <section>
+                <h2 id="static">Position Static</h2>
+                <p>Default value of the element (<u>element with no position</u>), The element is NOT
+                    positioned.</p>
+                <p><mark>With the default value we CANT move the element</mark></p>
 
+                <div>
+                    <h3>Original Space</h3>
+                    <div class="big-box">
+                        <div class="box "></div>
+                    </div>
+                    <h3>Move Box with Static</h3>
+                    <p>Top 150 - Left 20 px</p>
+                    <div class="big-box">
+                        <div class="box pos-static"></div>
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section>
+                <h2 id="relative">Position Relative</h2>
+                <p>If we move the element, the element will move from its initial position as a reference</p>
+                <div>
+                    <h3>Original Space</h3>
+                    <div class="big-box">
+                        <div class="box "></div>
+                    </div>
+                    <h3>Move the Box with Relative</h3>
+                    <p>Top 150 - Left 20 px</p>
+                    <div class="big-box">
+                        <div class="box pos-relative"></div>
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section>
+                <h2 id="absolute">Position Absolute</h2>
+                <p>The elements will lose its space and metrics, if we move it, the element will move from the father
+                    element as a
+                    reference, if it don't have father it will use the HTML as a reference</p>
+                <div>
+                    <h3>Original Space</h3>
+                    <div class="big-box">
+                        <div class="box ">BOX</div>
+                    </div>
+                    <h3>Move the Box with Absolute (Big Box has Position : relative)</h3>
+                    <p>Bottom 150 - Right 50 px</p>
+                    <div class="big-box box-relative">
+                        <div class="box pos-absolute">BOX <br>I have as a reference the Big Box</div>
+                    </div>
+                    <h3>Move the Box with Absolute (Big Box has no Position)</h3>
+                    <p>Bottom 150 - Right 50 px</p>
+                    <div class="large-box box-relative">
+                        <div class="big-box">
+                            <div class="box pos-absolute">BOX <br>I have as a reference the Large Box cause Big Box HAS
+                                NO position<br>Large Box HAS POSITION relative</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section>
+                <h2 id="fixed">Position Fixed</h2>
+                <p>The elements will lose its space and metrics,if we move it will use the html as a reference and the
+                    element will be fixed in that position even if we scroll</p>
+                <div>
+                    <h3>Original Space</h3>
+                    <div class="big-box">
+                        <div class="box "></div>
+                    </div>
+                    <h3>Move the Box with Fixed</h3>
+                    <p>Top 150 - Left 20 px</p>
+                    <div class="big-box">
+                        <div class="box pos-fixed">FIXED BOX <br> I always has the HTML as my reference</div>
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section>
+                <h2 id="sticky">Position Sticky</h2>
+                <p>The element with sticky, will have as a reference the father (or element that will contain the sticky
+                    element )</p>
+                <p>If you put the sticky element inside a element(father) that have NO height (has nothing containing),
+                    the sticky element Will not Work (You cant see the element working cause it works)</p>
+                <div>
+                    <h3>Original Space</h3>
+                    <div class="big-box">
+                        <div class="box "></div>
+                    </div>
+                    <h3>Move the Box with Sticky</h3>
+                    <p>Top 0 - right 0</p>
+                    <div class="big-box">
+                        <div class="box pos-sticky2">I am a combination of Relative and Fixed <br><br>Im relative if i
+                            have no place to be fixed <br><br><br>But I will be fixed from the top, if you scroll from
+                            right to left</div>
+                    </div>
+                    <h3>Move the Box with Sticky</h3>
+                    <p>Top 0 - Left 0</p>
+                    <div class="big-box">
+                        <div class="box pos-sticky">I am a combination of Relative and Fixed <br><br>Im relative if i
+                            have no place to be fixed <br><br><br>But I will be fixed from the top, if you scroll from
+                            right to left</div>
+                    </div>
+                </div>
+                <div>
+                    <a href="#">Back To Top</a>
+                </div>
+            </section>
         </main>
+        <hr>
         <footer>
             <p>Copyright &copy; Learning CSS.</p>
         </footer>
