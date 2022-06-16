@@ -263,37 +263,37 @@ h1 {
 .bgi-flower1 {
   width: 200px;
   height: 200px;
-  background-image: url("/assets/img/flower01.webp");
-}
-
-.bgi-flower4 {
-  width: 200px;
-  height: 200px;
-  background-image: url("/assets/img/flower04.jpg");
+  background-image: url("/assets/images/flower01.webp");
 }
 
 .bgi-flower2 {
   width: 180px;
   height: 200px;
-  background-image: url("/assets/img/flower02.jpg");
+  background-image: url("/assets/images/flower02.jpg");
+}
+
+.bgi-flower4 {
+  width: 200px;
+  height: 200px;
+  background-image: url("/assets/images/flower04.jpg");
 }
 
 .bgi-flower6 {
   width: 400px;
   height: 300px;
-  background-image: url("/assets/img/flower06.webp");
+  background-image: url("/assets/images/flower06.webp");
 }
 
 .bgi-flower7 {
   width: 150px;
   height: 150px;
-  background-image: url("/assets/img/flower07.webp");
+  background-image: url("/assets/images/flower07.webp");
 }
 
 .bgi-flower8 {
   width: 500px;
   height: 350px;
-  background-image: url("/assets/img/flower08.webp");
+  background-image: url("/assets/images/flower08.webp");
 }
 
 /* Background Repeat */
